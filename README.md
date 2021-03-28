@@ -23,17 +23,18 @@ Now what 2-letter words can be built up? For strictly proper words, omitting all
 - *IN*
 - *IS*
 - *IT*
+
 This is ommitting words like *MA*, *PA*, *HA* and *YA*, but we should keep those in mind too.
 
-Next a good strategy is to look at suffixes that can be whittled down to other valid suffixes, e.g.:  
-*ERS* -> *ER* -> *E*  
-*INGS* -> *ING* -> *IN*  
+Next a good strategy is to look at suffixes that can be whittled down to other valid suffixes, e.g.:
+- *ERS* -> *ER* -> *E*
+- *INGS* -> *ING* -> *IN*
 
 Using these strategies I managed to come up with the following solution:
-**MANAGERS** -> *MANAGER* -> *MANAGE* -> *MANGE* -> *MANE* -> *MAN* -> *AN* -> *A*
+- **MANAGERS** -> *MANAGER* -> *MANAGE* -> *MANGE* -> *MANE* -> *MAN* -> *AN* -> *A*
 
 Though the popular solution found on the internet is:
-**STARTING** -> *STARING* -> *STRING* -> *STING* -> *SING* -> *SIN* -> *IN* -> *I*
+- **STARTING** -> *STARING* -> *STRING* -> *STING* -> *SING* -> *SIN* -> *IN* -> *I*
 
 ### Solving Programmatically
 The solution can of course be solved programmatically with a simple search algorithm and a wordlist.  
